@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Flowgrid | High-Performance Workflow Engine for Developers</title>
+    <meta name="title" content="Flowgrid | High-Performance Workflow Engine for Developers">
+    <meta name="description" content="A graph-based workflow engine with node-level retries, checkpointing, and crash-safe execution built for production systems. Define workflows in TypeScript.">
+    <meta name="keywords" content="workflow engine, directed acyclic graph, DAG, typescript, nodejs, background jobs, orchestration, devtools, infrastructure">
+    <meta name="author" content="Flowgrid Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://flowgrid.dev/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://flowgrid.dev/">
+    <meta property="og:title" content="Flowgrid | High-Performance Workflow Engine">
+    <meta property="og:description" content="Stop stitching together disparate tools. Flowgrid gives you a unified control plane for your entire background job infrastructure.">
+    <meta property="og:image" content="https://flowgrid.dev/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://flowgrid.dev/">
+    <meta property="twitter:title" content="Flowgrid | High-Performance Workflow Engine">
+    <meta property="twitter:description" content="Stop stitching together disparate tools. Flowgrid gives you a unified control plane for your entire background job infrastructure.">
+    <meta property="twitter:image" content="https://flowgrid.dev/og-image.jpg">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Newsreader:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              serif: ['Newsreader', 'serif'],
+            },
+            colors: {
+              brand: {
+                red: '#FF3B30',
+                dark: '#050505',
+                panel: '#111111',
+                border: '#222222'
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        background-color: #050505;
+        color: #ffffff;
+        overflow-x: hidden;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      .isometric-container {
+        transform-style: preserve-3d;
+      }
+      .preserve-3d {
+        transform-style: preserve-3d;
+      }
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #050505;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #333;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #444;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "framer-motion": "https://esm.sh/framer-motion@^12.34.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "@rive-app/react-canvas": "https://esm.sh/@rive-app/react-canvas@^4.27.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
